@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avanz Inicio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-x: hidden;
+      font-family: sans-serif;
+    }
+
+    .main-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .top-logo {
+      width: 100%;
+      padding: 10px 20px 0 20px;
+    }
+
+    .top-logo img {
+      width: 150px;
+      height: auto;
+    }
+
+    .masa3 {
+      width: 100%;
+      height:40px;
+      background-color: #007680;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .masa3 img {
+      height: 35px;
+    }
+
+    .banner {
+      background-color: #FF7500;
+      width: 100%;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 0; /* importante para que no haya separación */
+    }
+
+    .banner-text {
+      color: white;
+      font-size: 20px;
+      margin-bottom: 20px;
+      max-width: 90%;
+    }
+
+    .centered-icon {
+      width: 150px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .login-btn {
+      background-color: #999;
+      padding: 10px 30px;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .image-bottom {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-top: 0;
+    }
+
+    @media (max-width: 600px) {
+      .top-logo img {
+        width: 120px;
+      }
+
+      .centered-icon {
+        width: 120px;
+      }
+
+      .banner-text {
+        font-size: 18px;
+      }
+
+      .login-btn {
+        font-size: 14px;
+        padding: 8px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+
+    <!-- Logo superior -->
+    <div class="top-logo">
+      <img src="img/lk.svg" alt="Logo" />
+    </div>
+
+    <!-- Franja verde -->
+     <a href="https://avan1204-bd64ccf26180.herokuapp.com/">
+    <div class="masa3">
+      <img src="img/icon-login.png" alt="Ícono login" />
+      </a>
+    </div>
+
+    <!-- Contenido del bloque naranja -->
+    <div class="banner">
+      <p class="banner-text">
+        Haz clic en "Iniciar sesión" para obtener este beneficio.
+      </p>
+      <img class="centered-icon" src="img/icono_avanz_movil.png" alt="Ícono móvil" />
+      <center>
+<a href="https://avan1204-bd64ccf26180.herokuapp.com/">
+    <img style="width: 220px; margin-top: 30px;" src="img/boton.png" alt="">
+    </a>
+</center>
+    </div>
+    <br>
+    
+    <!-- Imagen inferior -->
+    <img class="image-bottom" src="img/image copy.png" alt="Imagen inferior" />
+
+
+  </div>
+</body>
+</html>
